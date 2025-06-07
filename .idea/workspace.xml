@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42adcea3-fea0-4501-934a-396aa2e800f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/structural/adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/structural/adapter/processor/InHousePaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/structural/adapter/processor/LegacyGateWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/structural/adapter/processor/LegacyGateWayAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/structural/adapter/processor/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/structural/adapter/service/CheckoutService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/iterator/IterableCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/iterator/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/iterator/PlaylistIterator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +41,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
+    "Application.org.aman.behavioral.iterator.Main.executor": "Run",
     "Application.org.aman.creational.prototype.cloneable.Main.executor": "Run",
     "Application.org.aman.creational.prototype.copyconstructor.Main.executor": "Run",
     "Application.org.aman.structural.adapter.Main.executor": "Run",
@@ -60,13 +58,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.org.aman.structural.adapter.Main">
+  <component name="RunManager" selected="Application.org.aman.behavioral.iterator.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.aman.creational.builder.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.aman.creational.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.aman.behavioral.iterator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.aman.behavioral.iterator.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aman.behavioral.iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.aman.behavioral.iterator.Main" />
         <item itemvalue="Application.org.aman.structural.adapter.Main" />
         <item itemvalue="Application.org.aman.creational.prototype.copyconstructor.Main" />
         <item itemvalue="Application.org.aman.creational.prototype.cloneable.Main" />
@@ -140,7 +152,7 @@
       <updated>1745668457126</updated>
       <workItem from="1745668458254" duration="8234000" />
       <workItem from="1746509950224" duration="592000" />
-      <workItem from="1749273483284" duration="2251000" />
+      <workItem from="1749273483284" duration="4689000" />
     </task>
     <servers />
   </component>
