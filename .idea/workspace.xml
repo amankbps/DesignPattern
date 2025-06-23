@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42adcea3-fea0-4501-934a-396aa2e800f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/iterator/IterableCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/iterator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/iterator/Playlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/iterator/PlaylistIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/factory/RequestHandlerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/AuthenticationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/AuthorizationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/BusinessLogicHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/RateLimiterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/RequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/ValidationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/model/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
+    "Application.org.aman.behavioral.chainofresponsibility.Main.executor": "Run",
     "Application.org.aman.behavioral.iterator.Main.executor": "Run",
     "Application.org.aman.creational.prototype.cloneable.Main.executor": "Run",
     "Application.org.aman.creational.prototype.copyconstructor.Main.executor": "Run",
@@ -49,6 +55,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Developer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,13 +65,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.org.aman.behavioral.iterator.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.aman.creational.builder.Main" />
+  <component name="RunManager" selected="Application.org.aman.behavioral.chainofresponsibility.Main">
+    <configuration name="org.aman.behavioral.chainofresponsibility.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.aman.behavioral.chainofresponsibility.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.aman.creational.builder.*" />
+          <option name="PATTERN" value="org.aman.behavioral.chainofresponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.aman.behavioral.chainofresponsibility.Main" />
         <item itemvalue="Application.org.aman.behavioral.iterator.Main" />
         <item itemvalue="Application.org.aman.structural.adapter.Main" />
         <item itemvalue="Application.org.aman.creational.prototype.copyconstructor.Main" />
         <item itemvalue="Application.org.aman.creational.prototype.cloneable.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +159,8 @@
       <updated>1745668457126</updated>
       <workItem from="1745668458254" duration="8234000" />
       <workItem from="1746509950224" duration="592000" />
-      <workItem from="1749273483284" duration="4689000" />
+      <workItem from="1749273483284" duration="8808000" />
+      <workItem from="1750660102286" duration="1972000" />
     </task>
     <servers />
   </component>
