@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42adcea3-fea0-4501-934a-396aa2e800f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/factory/RequestHandlerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/AuthenticationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/AuthorizationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/BusinessLogicHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/RateLimiterHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/handler/ValidationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/chainofresponsibility/model/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/observer/publisher/FitnessData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/observer/publisher/FitnessDataSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/observer/subscriber/FitnessDataObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/observer/subscriber/GoalNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/observer/subscriber/LiveActivityDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/aman/behavioral/observer/subscriber/ProcessLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,30 +40,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Run",
-    "Application.org.aman.behavioral.chainofresponsibility.Main.executor": "Run",
-    "Application.org.aman.behavioral.iterator.Main.executor": "Run",
-    "Application.org.aman.creational.prototype.cloneable.Main.executor": "Run",
-    "Application.org.aman.creational.prototype.copyconstructor.Main.executor": "Run",
-    "Application.org.aman.structural.adapter.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Developer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Developer/DesignPattern/src/main/java/org/aman/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.aman.behavioral.chainofresponsibility.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.aman.behavioral.iterator.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.aman.creational.prototype.cloneable.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.aman.creational.prototype.copyconstructor.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.aman.structural.adapter.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Developer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Developer/DesignPattern/src/main/java/org/aman/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.org.aman.behavioral.chainofresponsibility.Main">
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.aman.behavioral.observer.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.aman.behavioral.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.aman.behavioral.chainofresponsibility.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.aman.behavioral.chainofresponsibility.Main" />
       <module name="DesignPattern" />
@@ -85,19 +96,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.aman.behavioral.iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.aman.creational.prototype.cloneable.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.aman.creational.prototype.cloneable.Main" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.aman.creational.prototype.cloneable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.aman.behavioral.chainofresponsibility.Main" />
         <item itemvalue="Application.org.aman.behavioral.iterator.Main" />
         <item itemvalue="Application.org.aman.structural.adapter.Main" />
         <item itemvalue="Application.org.aman.creational.prototype.copyconstructor.Main" />
-        <item itemvalue="Application.org.aman.creational.prototype.cloneable.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +158,8 @@
       <workItem from="1745668458254" duration="8234000" />
       <workItem from="1746509950224" duration="592000" />
       <workItem from="1749273483284" duration="8808000" />
-      <workItem from="1750660102286" duration="1972000" />
+      <workItem from="1750660102286" duration="5831000" />
+      <workItem from="1753095817024" duration="1370000" />
     </task>
     <servers />
   </component>
